@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <!-- SITE TITLE -->
-        <title>Laxmi - Responsive App Landing Page</title>          
+        <title>Himalaya Wellness Center</title>          
         <!-- Latest Bootstrap min CSS -->
         <link rel="stylesheet" href="{{url('/')}}/bootstrap/css/bootstrap.min.css">  
         <link rel="stylesheet" type="text/css" href="{{url('/')}}/css/fullpage.css">     
@@ -52,23 +52,23 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt="logo"></a>
+                    <a href="index.html" class="navbar-brand"><img src="/img/logo.png" alt="logo"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <nav>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a class="arrow-btn" href="#home">Home</a>
-                                <ul class="sub-menu">
+                            <li><a class="page-scroll" href="#home">Home</a>
+                                <!-- <ul class="sub-menu">
                                     <li><a href="index_ripple.html">Home Water Fade</a></li>
                                     <li><a href="index_particle.html">Home Particle</a></li>
                                     <li><a href="index_youtube.html">Home Youtube</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
-                            <li><a class="page-scroll" href="#feature">SERVICES</a></li>                        
-                            <li><a class="page-scroll" href="#screenshots">BENEFITS</a></li>                     
-                            <li><a class="page-scroll" href="#team">ABOUT US</a></li>                       
+                            <li><a class="page-scroll" href="#feature">Home</a></li>                        
+                            <li><a class="page-scroll" href="#screenshots">About Us</a></li>                     
+                            <li><a class="page-scroll" href="#team">Services</a></li>                       
                             <li><a class="page-scroll" href="#pricing">Pricing</a></li>                     
-                            <li><a class="page-scroll" href="#download">TESTIMONIALS</a></li>                       
+                            <li><a class="page-scroll" href="#download">Testimonials</a></li>                       
                             <li><a class="page-scroll" href="#" data-toggle="modal" data-target="#projectModal">Contact</a></li>                            
                         </ul>
                     </nav>
@@ -115,13 +115,13 @@
         </div><!-- /.modal -->  
                 
         <!-- START HOME -->
-        <section data-stellar-background-ratio="0.3" id="home" class="home_bg" style="background-image: url(assets/img/bg/home-bg.jpg);  background-size:cover; background-position: center center;">
+        <section data-stellar-background-ratio="0.3" id="home" class="home_bg" style="background-image: url(/img/pic1.jpg);  background-size:cover; background-position: center center;">
             <div class="container">
                 <div class="row">                 
                   <div class="col-md-7 col-sm-12 col-xs-12">
                     <div class="hero-text">
-                        <h2>Make business easy with Beautiful landing page Laxmi</h2>
-                         <p>Best way to promote your app. With this amazing template</p>
+                        <h2>Welcome to Himalaya Wellness</h2>
+                         <p>The Best Massage in Calgary</p>
                         <div class="home_btn">
                             <a href="#" class="app-btn wow bounceIn" data-wow-delay=".2s" ><i class="fa fa-apple"></i>App Store</a>
                             <a href="#" class="app-btn wow bounceIn" data-wow-delay=".4s" ><i class="fa fa-play"></i>Google Play</a>
@@ -145,28 +145,28 @@
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single_about">
                             <i class="fa fa-check"></i>
-                            <h4>Data in cloud</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
+                            <h4>Massage Therapy</h4>
+                            <p>Mantra Wellness is famous for its professional, affordable, and effective massage therapy. If you’re looking for the best massage in downtown Calgary, come to Mantra Wellness Centre to tune out, unwind, and de-stress.</p>
                         </div>
                     </div><!-- END COL-->
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single_about">
                             <i class="fa fa-diamond"></i>
-                            <h4>Exclusive design</h4>
+                            <h4>Nutrition & Health Coaching</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
                         </div>
                     </div><!-- END COL-->
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single_about">
                             <i class="fa fa-paper-plane-o"></i>
-                            <h4>enjoy it</h4>
+                            <h4>Manual Osteopath</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
                         </div>
                     </div><!-- END COL-->
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single_about">
                             <i class="fa fa-phone"></i>
-                            <h4>24/7 support</h4>
+                            <h4>Chinese Medicine</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
                         </div>
                     </div><!-- END COL-->
