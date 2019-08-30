@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="eng">
 
     <head>
         <!-- Meta -->
@@ -48,11 +48,11 @@
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
+                        <span class="icon-bar">service
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html" class="navbar-brand"><img src="/img/logo.png" alt="logo"></a>
+                    <a href="#home" class="navbar-brand"><img src="/img/logo.png" alt="logo"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <nav>
@@ -64,11 +64,12 @@
                                     <li><a href="index_youtube.html">Home Youtube</a></li>
                                 </ul> -->
                             </li>
-                            <li><a class="page-scroll" href="#feature">Home</a></li>                        
-                            <li><a class="page-scroll" href="#screenshots">About Us</a></li>                     
-                            <li><a class="page-scroll" href="#team">Services</a></li>                       
-                            <li><a class="page-scroll" href="#pricing">Pricing</a></li>                     
-                            <li><a class="page-scroll" href="#download">Testimonials</a></li>                       
+                            <li><a class="page-scroll" href="#service">Services</a></li>                        
+                                              
+                            
+                            <li><a class="page-scroll" href="#pricing">Pricing</a></li> 
+                            <li><a class="page-scroll" href="#aboutus">About Us</a></li>                    
+                            <li><a class="page-scroll" href="#Testimonials">Testimonials</a></li>                       
                             <li><a class="page-scroll" href="#" data-toggle="modal" data-target="#projectModal">Contact</a></li>                            
                         </ul>
                     </nav>
@@ -112,15 +113,17 @@
                   </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
+
+
         </div><!-- /.modal -->  
                 
         <!-- START HOME -->
-        <section data-stellar-background-ratio="0.3" id="home" class="home_bg" style="background-image: url(/img/pic1.jpg);  background-size:cover; background-position: center center;">
+        <section data-stellar-background-ratio="0.3" id="home" class="home_bg" style="background-image: url(/img/pic1.jpg);  background-size:cover; background-position: center center; ">
             <div class="container">
                 <div class="row">                 
                   <div class="col-md-7 col-sm-12 col-xs-12">
                     <div class="hero-text">
-                        <h2>Welcome to Himalaya Wellness</h2>
+                        <h2>Welcome to Himalaya Wellness Center</h2>
                          <p>The Best Massage in Calgary</p>
                         <div class="home_btn">
                             <a href="#" class="app-btn wow bounceIn" data-wow-delay=".2s" ><i class="fa fa-apple"></i>App Store</a>
@@ -138,90 +141,16 @@
         </section>
         <!-- END  HOME -->  
 
-        <!-- START ABOUT -->
-        <section id="feature" class="about-content section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single_about">
-                            <i class="fa fa-check"></i>
-                            <h4>Massage Therapy</h4>
-                            <p>Mantra Wellness is famous for its professional, affordable, and effective massage therapy. If you’re looking for the best massage in downtown Calgary, come to Mantra Wellness Centre to tune out, unwind, and de-stress.</p>
-                        </div>
-                    </div><!-- END COL-->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single_about">
-                            <i class="fa fa-diamond"></i>
-                            <h4>Nutrition & Health Coaching</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
-                        </div>
-                    </div><!-- END COL-->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single_about">
-                            <i class="fa fa-paper-plane-o"></i>
-                            <h4>Manual Osteopath</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
-                        </div>
-                    </div><!-- END COL-->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="single_about">
-                            <i class="fa fa-phone"></i>
-                            <h4>Chinese Medicine</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
-                        </div>
-                    </div><!-- END COL-->
-                </div><!-- END ROW-->
-            </div><!-- END CONTAINER-->
-        </section>
-        <!-- END ABOUT -->
-        
-        <!-- START FEATURED ONE -->
-        <section class="feature-one section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-12 col-xs-12">
-                        <div class="single_feature_one">
-                            <h3>Manage everything <br> <strong>in one place</strong></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
-                            <a class="single_feature_btn_light" href="#">Download Now</a>
-                        </div>
-                    </div><!-- END COL-->
-                    <div class="col-md-7 col-sm-12 col-xs-12">
-                        <div class="single_feature_img">
-                            <img class="img-responsive wow bounceIn" data-wow-delay=".6s" src="assets/img/mockup3-phone.png" alt="">
-                        </div>
-                    </div><!-- END COL-->                   
-                </div><!-- END ROW-->
-            </div><!-- END CONTAINER-->
-        </section>
-        <!-- END FEATURED ONE -->
-        
-        <!-- START FEATURED TWO -->
-        <section class="feature-two section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 col-sm-12 col-xs-12">
-                        <div class="single_feature_two_img">
-                            <img class="img-responsive wow bounceIn" data-wow-delay=".6s" src="assets/img/app-mockup-2.png" alt="">
-                        </div>
-                    </div><!-- END COL-->                   
-                    <div class="col-md-5 col-sm-12 col-xs-12">
-                        <div class="single_feature_two">
-                            <h3>Additional effects <br> <strong>unique to app</strong></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
-                            <a class="single_feature_btn_light" href="#">Download Now</a>
-                        </div>
-                    </div><!-- END COL-->
-                </div><!-- END ROW-->
-            </div><!-- END CONTAINER-->
-        </section>
-        <!-- END FEATURED TWO -->
 
-        <!-- START AMAZING FEATURES -->
-        <section class="amazing_feature">
-            <div class="container">
+
+
+
+        <!-- START ABOUT -->
+
+        <section id="service" class="about-content section-padding" >
+           <div class="container">
                 <div class="section-title text-center wow zoomIn">
-                    <h2>Amazing Features</h2>
+                    <h2>Amazing Service </h2>
                     <div class="line"></div>
                     <p>We've got a lot of amaing and cool features.</p>                     
                 </div>              
@@ -229,7 +158,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="single_feature">
                             <div class="feature_icon"><i class="fa fa-heart-o"></i></div>
-                            <h3>Made with Love</h3>
+                            <h3>Manual Osteopath</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Cras.</p>    
                         </div>
                     </div><!-- END COL-->                               
@@ -269,144 +198,26 @@
                         </div>
                     </div><!-- END COL-->                       
                 </div><!--- END ROW -->         
-            </div><!--- END CONTAINER -->       
-        </section>
-        <!-- END AMAZING FEATURES -->
-        
-        <!-- START HOW IT WORKS -->
-        <section class="template_how_it_work">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-5 col-sm-12 col-xs-12 no-padding">
-                        <div class="single_how_work_img">
-                          <img src="assets/img/how_it_work.jpg" class="img-responsive" alt="" />
-                        </div>    
-                    </div><!--- END COL -->
-                    <div class="col-md-7 col-sm-12 col-xs-12 no-padding">
-                        <div class="single_how_work">
-                            <h4>how it works</h4>
-                            <span></span>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                            <div class="our_video">
-                                <a class="video-play" href="https://player.vimeo.com/video/116147791"><i class="fa fa-play"></i> watch video</a>
-                            </div>                      
-                        </div>
-                    </div><!--- END COL -->
-                </div><!--- END ROW -->
             </div><!--- END CONTAINER -->
         </section>
-        <!-- END HOW IT WORKS  -->          
+        <!-- END ABOUT -->
 
-        <!-- START TEAM -->
-        <section id="team" class="team_member section-padding">
-            <div class="container">
-                <div class="section-title text-center wow zoomIn">
-                    <h2>Our team</h2>
-                    <div class="line"></div>
-                    <p>Meet our expert team member for an question.</p>
-                </div>              
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="our-team">
-                            <div class="team_img">
-                                <img src="assets/img/team/team-1.jpg" alt="team-image">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Masrafee</h3>
-                                <span class="post">web developer</span>
-                            </div>
-                        </div>
-                    </div><!--- END COL -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="our-team">
-                            <div class="team_img">
-                                <img src="assets/img/team/team-2.jpg" alt="team-image">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Nafiza kamal</h3>
-                                <span class="post">web developer</span>
-                            </div>
-                        </div>
-                    </div><!--- END COL -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="our-team">
-                            <div class="team_img">
-                                <img src="assets/img/team/team-3.jpg" alt="team-image">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Syed Ekram</h3>
-                                <span class="post">web developer</span>
-                            </div>
-                        </div>
-                    </div><!--- END COL -->
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <div class="our-team">
-                            <div class="team_img">
-                                <img src="assets/img/team/team-4.jpg" alt="team-image">
-                                <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-content">
-                                <h3 class="title">Masum Billah</h3>
-                                <span class="post">web developer</span>
-                            </div>
-                        </div>
-                    </div><!--- END COL -->             
-                </div><!--- END ROW -->
-            </div><!--- END CONTAINER -->       
-        </section>
-        <!-- END TEAM -->
+
         
-        <!-- START APP SCREENSHOT  -->
-        <section id="screenshots" class="app-screenshot section-padding">
-            <div class="container">
-                <div class="section-title text-center wow zoomIn">
-                    <h2>Screenshots</h2>
-                    <div class="line"></div>
-                    <p>Our awesome app screenshot gallery here.</p>
-                </div>              
-                <div class="row">               
-                    <div class="col-md-12">
-                        <div class="s-slider">
-                          <div class="item"><img src="assets/img/screenshot/1.jpg" alt=""/></div>
-                          <div class="item"><img src="assets/img/screenshot/2.jpg" alt=""/></div>
-                          <div class="item"><img src="assets/img/screenshot/3.jpg" alt=""/></div>
-                          <div class="item"><img src="assets/img/screenshot/4.jpg" alt=""/></div>
-                          <div class="item"><img src="assets/img/screenshot/5.jpg" alt=""/></div>
-                          <div class="item"><img src="assets/img/screenshot/6.jpg" alt=""/></div>
-                          <div class="item"><img src="assets/img/screenshot/7.jpg" alt=""/></div>
-                          <div class="item"><img src="assets/img/screenshot/1.jpg" alt=""/></div>
-                        </div>
-                    </div><!--- END COL -->
-                </div><!--- END ROW -->         
-            </div><!--- END CONTAINER -->   
-        </section>
-        <!-- END APP SCREENSHOT -->     
+       
+        
+       
+
+        
+        
+                  
+
+      
+        
+          
 
         <!-- START PRICING TABLE  -->
-        <div id="pricing" class="pricing_table section-padding"  style="background-image: url(assets/img/bg/pricing-bg.jpg);  background-size:cover; background-position: center center;">  
+        <div id="pricing" class="pricing_table section-padding"  style="background-image: url(/img/pic1.jpg);  background-size:cover; background-position: center center;">  
             <div class="container">
                 <div class="section-title text-center">
                     <h2 class="section-title-white">Pricing Plan</h2>
@@ -472,7 +283,31 @@
             </div><!-- END CONTAINER  -->
         </div>
         <!-- END PRICING TABLE  -->
+  <!-- START APP SCREENSHOT  -->
+        <section id="aboutus" class="app-screenshot section-padding">
+            <div class="container">
+                   <div class="section-title text-center wow zoomIn">
+                    <h2>About Us </h2>
+                    <div class="line"></div>
+                    <p>We've got a lot of amaing and cool features.</p>                     
+                </div>
 
+                    <div class="col-md-5 col-sm-12 col-xs-12">
+                        <div class="single_feature_one">
+                            <h3>Manage everything <br> <strong>in one place</strong></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. </p>
+                            <a class="single_feature_btn_light" href="#">Download Now</a>
+                        </div>
+                    </div><!-- END COL--> 
+                    <div class="col-md-7 col-sm-12 col-xs-12">
+                        <div class="single_feature_img">
+                            <p></p>
+                            <img class="img-responsive wow bounceIn" data-wow-delay=".6s" src="assets/img/mockup3-phone.png" alt="">
+                        </div>
+                    </div><!-- END COL-->     
+            </div><!--- END CONTAINER -->   
+        </section>
+        <!-- END APP SCREENSHOT --> 
         <!-- START TESTIMONIAL -->
         <section class="testimonial section-padding">
             <div class="container">
@@ -540,15 +375,15 @@
         <!-- END TESTIMONIAL -->
         
         <!-- START DOWNLOAD -->
-        <section id="download" class="download section-padding">
+        <section id="Testimonials" class="download section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 text-center">
                         <div class="download_icon">
-                            <h2>Now Available</h2>
+                            <h2>Testimonialdsfdsfs</h2>
                             <span></span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a href="#"><img src="assets/img/apple.png" alt="" /></a>
+                            <a href="#"><img src="assets/img/apple.png" alt="" />vgfgfg</a>
                             <a href="#"><img src="assets/img/android.png" alt="" /></a>
                         </div>
                     </div><!--- END COL -->             
@@ -607,28 +442,7 @@
         </section>
         <!-- END FAQ -->        
 
-        <!-- START PARTNER LOGO -->
-        <footer class="partner-logo section-padding">
-            <div class="container">         
-                <div class="row text-center">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="partner  wow fadeInRight">
-                            <a href="#"><img src="assets/img/client/client1.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client2.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client3.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client4.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client5.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client1.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client2.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client3.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client4.png" alt="image"></a>
-                            <a href="#"><img src="assets/img/client/client5.png" alt="image"></a>
-                        </div>                  
-                    </div><!--- END COL -->
-                </div><!--- END ROW -->
-            </div><!--- END CONTAINER -->   
-        </footer>
-        <!-- END PARTNER LOGO -->   
+     >   
         
         <!-- START FOOTER -->
         <div class="footer">
